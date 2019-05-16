@@ -13,15 +13,15 @@ PROGRAM plenum_chamber_simple
 	INTEGER :: mesh_num,max_number_of_iterations
 	INTEGER :: i,j,k,l
 
-	mesh_num = 100
+	mesh_num = 10
 	cross_sectional_a_first = 0.5
 	cross_sectional_a_final = 0.1
 	p_first = 10
 	p_final = 0
 	density = 1.0
-	relaxation_factor = 0.02
+	relaxation_factor = 0.1
 	max_number_of_iterations = 20000
-	allowable_value = 0.1**5
+	allowable_value = 0.1**6
 
 	OPEN (1, file='output01.dat', status='replace')
 	WRITE (1, *) 'Mesh Num',mesh_num
@@ -191,4 +191,5 @@ DO l = 1,max_number_of_iterations
 	END IF
 END DO
 CLOSE(1)
+PRINT *,sudo_cond_p(1),sudo_cond_p(2),sudo_cond_p(3)
 END PROGRAM plenum_chamber_simple
