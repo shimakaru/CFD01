@@ -13,20 +13,23 @@ PROGRAM plenum_chamber_simple
 	INTEGER :: mesh_num,max_number_of_iterations
 	INTEGER :: i,j,k,l
 
-	mesh_num = 10
-	cross_sectional_a_first = 0.5
+	mesh_num = shellset_mesh_num
+	cross_sectional_a_first = 5
 	cross_sectional_a_final = 0.1
-	p_first = 10
+	p_first = 100
 	p_final = 0
 	density = 1.0
-	relaxation_factor = 0.1
+	relaxation_factor = 0.05
 	max_number_of_iterations = 20000
-	allowable_value = 0.1**6
+	allowable_value = 0.1**5
 
 	OPEN (1, file='output.dat', status='replace')
 	WRITE (1, *) 'Mesh Num',mesh_num
 	WRITE (1, *) 'Relaxation Factor',relaxation_factor
 	WRITE (1, *) 'Allowable Value',allowable_value
+	PRINT *,'Mesh Num',mesh_num
+	PRINT *,'Relaxation Factor',relaxation_factor
+	PRINT *,'Allowable Value',allowable_value
 
 	!断面積は線形に変化すると仮定(いちいち形状をインプットするのが面倒なため)
 	DO i = 1, mesh_num + 1
@@ -180,11 +183,14 @@ DO l = 1,max_number_of_iterations
 	WRITE (1,*) l,'preResidual error',residual_error
 	residual_error = residual_error / first_residual_error
 	WRITE (1,*) l,'Residual error',residual_error,'Mass Flow',sudo_cond_mass_flow
-	PRINT *,l,'Residual error',residual_error,'Mass Flow',sudo_cond_mass_flow
+	!PRINT *,l,'Residual error',residual_error,'Mass Flow',sudo_cond_mass_flow
 	IF (residual_error < allowable_value .or. isnan(sudo_cond_mass_flow)) THEN
+		PRINT *,l,'Residual error',residual_error,'Mass Flow',sudo_cond_mass_flow
 		EXIT
 	END IF
 END DO
 CLOSE(1)
-PRINT *,sudo_cond_p(1),sudo_cond_p(2),sudo_cond_p(3)
+temp_real = SQRT(2*(p_first - p_final) / density) * cross_sectional_a_final
+PRINT *,'理論解(Mass Flow)',temp_real
+PRINT *,'----------------------------------------------------------------------------'
 END PROGRAM plenum_chamber_simple

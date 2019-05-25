@@ -1,371 +1,591 @@
- Mesh Num          10
- Relaxation Factor  0.100000001    
+ Mesh Num         100
+ Relaxation Factor   5.00000007E-02
  Allowable Value   1.00000007E-05
-           1 preResidual error   12.2671585    
-           1 Residual error   1.00000000     Mass Flow  0.971399724    
-           2 preResidual error   13.1296864    
-           2 Residual error   1.07031190     Mass Flow  0.938075066    
-           3 preResidual error   13.4879570    
-           3 Residual error   1.09951758     Mass Flow  0.901143730    
-           4 preResidual error   13.4121113    
-           4 Residual error   1.09333479     Mass Flow  0.861667275    
-           5 preResidual error   12.9735384    
-           5 Residual error   1.05758297     Mass Flow  0.820664346    
-           6 preResidual error   12.2434502    
-           6 Residual error  0.998067319     Mass Flow  0.779116750    
-           7 preResidual error   11.2909946    
-           7 Residual error  0.920424640     Mass Flow  0.737970948    
-           8 preResidual error   10.1817636    
-           8 Residual error  0.830001771     Mass Flow  0.698132575    
-           9 preResidual error   8.97604275    
-           9 Residual error  0.731713295     Mass Flow  0.660455644    
-          10 preResidual error   7.72767019    
-          10 Residual error  0.629947841     Mass Flow  0.625722706    
-          11 preResidual error   6.48313618    
-          11 Residual error  0.528495371     Mass Flow  0.594616890    
-          12 preResidual error   5.28129387    
-          12 Residual error  0.430523008     Mass Flow  0.567684948    
-          13 preResidual error   4.15349960    
-          13 Residual error  0.338586926     Mass Flow  0.545296013    
-          14 preResidual error   3.12418127    
-          14 Residual error  0.254678488     Mass Flow  0.527604043    
-          15 preResidual error   2.21155977    
-          15 Residual error  0.180282965     Mass Flow  0.514524698    
-          16 preResidual error   1.42802322    
-          16 Residual error  0.116410270     Mass Flow  0.505739689    
-          17 preResidual error  0.780313432    
-          17 Residual error   6.36099577E-02 Mass Flow  0.500732064    
-          18 preResidual error  0.561510801    
-          18 Residual error   4.57735024E-02 Mass Flow  0.498847902    
-          19 preResidual error  0.660215914    
-          19 Residual error   5.38197905E-02 Mass Flow  0.499370575    
-          20 preResidual error  0.818702698    
-          20 Residual error   6.67393953E-02 Mass Flow  0.501590192    
-          21 preResidual error  0.941996038    
-          21 Residual error   7.67900795E-02 Mass Flow  0.504856467    
-          22 preResidual error  0.975814342    
-          22 Residual error   7.95468912E-02 Mass Flow  0.508611739    
-          23 preResidual error  0.937366605    
-          23 Residual error   7.64126927E-02 Mass Flow  0.512404323    
-          24 preResidual error  0.843962669    
-          24 Residual error   6.87985495E-02 Mass Flow  0.515889227    
-          25 preResidual error  0.712062716    
-          25 Residual error   5.80462627E-02 Mass Flow  0.518820405    
-          26 preResidual error  0.563546956    
-          26 Residual error   4.59394865E-02 Mass Flow  0.521038890    
-          27 preResidual error  0.480794132    
-          27 Residual error   3.91936041E-02 Mass Flow  0.522460163    
-          28 preResidual error  0.464703381    
-          28 Residual error   3.78819071E-02 Mass Flow  0.523060858    
-          29 preResidual error  0.479088187    
-          29 Residual error   3.90545353E-02 Mass Flow  0.522867084    
-          30 preResidual error  0.520648956    
-          30 Residual error   4.24425080E-02 Mass Flow  0.521943450    
-          31 preResidual error  0.571335852    
-          31 Residual error   4.65744250E-02 Mass Flow  0.520383418    
-          32 preResidual error  0.618521869    
-          32 Residual error   5.04209585E-02 Mass Flow  0.518300474    
-          33 preResidual error  0.651074529    
-          33 Residual error   5.30745983E-02 Mass Flow  0.515820265    
-          34 preResidual error  0.661281586    
-          34 Residual error   5.39066643E-02 Mass Flow  0.513073564    
-          35 preResidual error  0.650842488    
-          35 Residual error   5.30556850E-02 Mass Flow  0.510189831    
-          36 preResidual error  0.622203708    
-          36 Residual error   5.07210940E-02 Mass Flow  0.507292032    
-          37 preResidual error  0.578346610    
-          37 Residual error   4.71459329E-02 Mass Flow  0.504491687    
-          38 preResidual error  0.522563040    
-          38 Residual error   4.25985381E-02 Mass Flow  0.501885176    
-          39 preResidual error  0.458269954    
-          39 Residual error   3.73574644E-02 Mass Flow  0.499551117    
-          40 preResidual error  0.388835073    
-          40 Residual error   3.16972397E-02 Mass Flow  0.497548491    
-          41 preResidual error  0.317442358    
-          41 Residual error   2.58774161E-02 Mass Flow  0.495916039    
-          42 preResidual error  0.246966779    
-          42 Residual error   2.01323535E-02 Mass Flow  0.494672686    
-          43 preResidual error  0.187007785    
-          43 Residual error   1.52445883E-02 Mass Flow  0.493818849    
-          44 preResidual error  0.164949298    
-          44 Residual error   1.34464148E-02 Mass Flow  0.493338585    
-          45 preResidual error  0.171434283    
-          45 Residual error   1.39750605E-02 Mass Flow  0.493202269    
-          46 preResidual error  0.182295144    
-          46 Residual error   1.48604214E-02 Mass Flow  0.493369699    
-          47 preResidual error  0.199720085    
-          47 Residual error   1.62808765E-02 Mass Flow  0.493793279    
-          48 preResidual error  0.210377336    
-          48 Residual error   1.71496384E-02 Mass Flow  0.494421095    
-          49 preResidual error  0.215449452    
-          49 Residual error   1.75631102E-02 Mass Flow  0.495199919    
-          50 preResidual error  0.220299184    
-          50 Residual error   1.79584529E-02 Mass Flow  0.496077597    
-          51 preResidual error  0.218289793    
-          51 Residual error   1.77946500E-02 Mass Flow  0.497005165    
-          52 preResidual error  0.210314751    
-          52 Residual error   1.71445366E-02 Mass Flow  0.497938544    
-          53 preResidual error  0.197391868    
-          53 Residual error   1.60910822E-02 Mass Flow  0.498839498    
-          54 preResidual error  0.180599391    
-          54 Residual error   1.47221861E-02 Mass Flow  0.499676526    
-          55 preResidual error  0.161027193    
-          55 Residual error   1.31266909E-02 Mass Flow  0.500424981    
-          56 preResidual error  0.139733851    
-          56 Residual error   1.13908900E-02 Mass Flow  0.501067221    
-          57 preResidual error  0.117697299    
-          57 Residual error   9.59450379E-03 Mass Flow  0.501592159    
-          58 preResidual error   9.57965851E-02
-          58 Residual error   7.80919101E-03 Mass Flow  0.501994848    
-          59 preResidual error   7.74645209E-02
-          59 Residual error   6.31478941E-03 Mass Flow  0.502275646    
-          60 preResidual error   7.15375543E-02
-          60 Residual error   5.83163183E-03 Mass Flow  0.502439678    
-          61 preResidual error   7.04075098E-02
-          61 Residual error   5.73951239E-03 Mass Flow  0.502495885    
-          62 preResidual error   7.03893900E-02
-          62 Residual error   5.73803531E-03 Mass Flow  0.502456009    
-          63 preResidual error   7.15287924E-02
-          63 Residual error   5.83091797E-03 Mass Flow  0.502333879    
-          64 preResidual error   7.43724704E-02
-          64 Residual error   6.06273022E-03 Mass Flow  0.502144635    
-          65 preResidual error   7.55761266E-02
-          65 Residual error   6.16085017E-03 Mass Flow  0.501903892    
-          66 preResidual error   7.54931569E-02
-          66 Residual error   6.15408691E-03 Mass Flow  0.501627028    
-          67 preResidual error   7.45682716E-02
-          67 Residual error   6.07869169E-03 Mass Flow  0.501328766    
-          68 preResidual error   7.17874765E-02
-          68 Residual error   5.85200544E-03 Mass Flow  0.501022518    
-          69 preResidual error   6.74645901E-02
-          69 Residual error   5.49961021E-03 Mass Flow  0.500720322    
-          70 preResidual error   6.19276166E-02
-          70 Residual error   5.04824473E-03 Mass Flow  0.500432253    
-          71 preResidual error   5.55161834E-02
-          71 Residual error   4.52559441E-03 Mass Flow  0.500166416    
-          72 preResidual error   4.85497713E-02
-          72 Residual error   3.95770324E-03 Mass Flow  0.499929011    
-          73 preResidual error   4.13547158E-02
-          73 Residual error   3.37117328E-03 Mass Flow  0.499724209    
-          74 preResidual error   3.57955694E-02
-          74 Residual error   2.91800010E-03 Mass Flow  0.499554396    
-          75 preResidual error   3.11682820E-02
-          75 Residual error   2.54079071E-03 Mass Flow  0.499420226    
-          76 preResidual error   2.69326568E-02
-          76 Residual error   2.19550892E-03 Mass Flow  0.499320954    
-          77 preResidual error   2.36321092E-02
-          77 Residual error   1.92645343E-03 Mass Flow  0.499254584    
-          78 preResidual error   2.29386091E-02
-          78 Residual error   1.86992029E-03 Mass Flow  0.499218136    
-          79 preResidual error   2.27742195E-02
-          79 Residual error   1.85651949E-03 Mass Flow  0.499207973    
-          80 preResidual error   2.30199695E-02
-          80 Residual error   1.87655271E-03 Mass Flow  0.499219984    
-          81 preResidual error   2.30045319E-02
-          81 Residual error   1.87529426E-03 Mass Flow  0.499249816    
-          82 preResidual error   2.28394866E-02
-          82 Residual error   1.86184002E-03 Mass Flow  0.499293178    
-          83 preResidual error   2.26798654E-02
-          83 Residual error   1.84882793E-03 Mass Flow  0.499345899    
-          84 preResidual error   2.21605897E-02
-          84 Residual error   1.80649734E-03 Mass Flow  0.499404132    
-          85 preResidual error   2.13317871E-02
-          85 Residual error   1.73893466E-03 Mass Flow  0.499464363    
-          86 preResidual error   2.02588439E-02
-          86 Residual error   1.65146997E-03 Mass Flow  0.499523729    
-          87 preResidual error   1.90001130E-02
-          87 Residual error   1.54886011E-03 Mass Flow  0.499579757    
-          88 preResidual error   1.76147223E-02
-          88 Residual error   1.43592525E-03 Mass Flow  0.499630600    
-          89 preResidual error   1.61668658E-02
-          89 Residual error   1.31789816E-03 Mass Flow  0.499674976    
-          90 preResidual error   1.49271488E-02
-          90 Residual error   1.21683837E-03 Mass Flow  0.499712050    
-          91 preResidual error   1.37103796E-02
-          91 Residual error   1.11764914E-03 Mass Flow  0.499741435    
-          92 preResidual error   1.25318170E-02
-          92 Residual error   1.02157460E-03 Mass Flow  0.499763221    
-          93 preResidual error   1.14107132E-02
-          93 Residual error   9.30183916E-04 Mass Flow  0.499777824    
-          94 preResidual error   1.04769468E-02
-          94 Residual error   8.54064710E-04 Mass Flow  0.499785841    
-          95 preResidual error   9.97501612E-03
-          95 Residual error   8.13148043E-04 Mass Flow  0.499788165    
-          96 preResidual error   9.70637798E-03
-          96 Residual error   7.91249098E-04 Mass Flow  0.499785781    
-          97 preResidual error   9.40442085E-03
-          97 Residual error   7.66634010E-04 Mass Flow  0.499779761    
-          98 preResidual error   9.06926394E-03
-          98 Residual error   7.39312498E-04 Mass Flow  0.499771118    
-          99 preResidual error   8.70358944E-03
-          99 Residual error   7.09503307E-04 Mass Flow  0.499760896    
-         100 preResidual error   8.31311941E-03
-         100 Residual error   6.77672797E-04 Mass Flow  0.499750018    
-         101 preResidual error   7.90172815E-03
-         101 Residual error   6.44136802E-04 Mass Flow  0.499739349    
-         102 preResidual error   7.47621059E-03
-         102 Residual error   6.09449227E-04 Mass Flow  0.499729544    
-         103 preResidual error   7.04628229E-03
-         103 Residual error   5.74402162E-04 Mass Flow  0.499721140    
-         104 preResidual error   6.81376457E-03
-         104 Residual error   5.55447652E-04 Mass Flow  0.499714553    
-         105 preResidual error   6.57778978E-03
-         105 Residual error   5.36211359E-04 Mass Flow  0.499710053    
-         106 preResidual error   6.33776188E-03
-         106 Residual error   5.16644679E-04 Mass Flow  0.499707758    
-         107 preResidual error   6.09117746E-03
-         107 Residual error   4.96543478E-04 Mass Flow  0.499707639    
-         108 preResidual error   5.83970547E-03
-         108 Residual error   4.76043846E-04 Mass Flow  0.499709606    
-         109 preResidual error   5.58173656E-03
-         109 Residual error   4.55014640E-04 Mass Flow  0.499713451    
-         110 preResidual error   5.31870127E-03
-         110 Residual error   4.33572393E-04 Mass Flow  0.499718964    
-         111 preResidual error   5.05167246E-03
-         111 Residual error   4.11804620E-04 Mass Flow  0.499725789    
-         112 preResidual error   4.78380919E-03
-         112 Residual error   3.89968802E-04 Mass Flow  0.499733597    
-         113 preResidual error   4.51350212E-03
-         113 Residual error   3.67933797E-04 Mass Flow  0.499742061    
-         114 preResidual error   4.24456596E-03
-         114 Residual error   3.46010522E-04 Mass Flow  0.499750853    
-         115 preResidual error   3.97610664E-03
-         115 Residual error   3.24126129E-04 Mass Flow  0.499759614    
-         116 preResidual error   3.71211767E-03
-         116 Residual error   3.02606146E-04 Mass Flow  0.499768108    
-         117 preResidual error   3.46094370E-03
-         117 Residual error   2.82130844E-04 Mass Flow  0.499776036    
-         118 preResidual error   3.30072641E-03
-         118 Residual error   2.69070180E-04 Mass Flow  0.499783218    
-         119 preResidual error   3.16399336E-03
-         119 Residual error   2.57923908E-04 Mass Flow  0.499789447    
-         120 preResidual error   3.02481651E-03
-         120 Residual error   2.46578420E-04 Mass Flow  0.499794692    
-         121 preResidual error   2.88200378E-03
-         121 Residual error   2.34936539E-04 Mass Flow  0.499798834    
-         122 preResidual error   2.73984671E-03
-         122 Residual error   2.23348106E-04 Mass Flow  0.499801874    
-         123 preResidual error   2.59685516E-03
-         123 Residual error   2.11691658E-04 Mass Flow  0.499803841    
-         124 preResidual error   2.45511532E-03
-         124 Residual error   2.00137249E-04 Mass Flow  0.499804735    
-         125 preResidual error   2.33548880E-03
-         125 Residual error   1.90385472E-04 Mass Flow  0.499804676    
-         126 preResidual error   2.26980448E-03
-         126 Residual error   1.85030993E-04 Mass Flow  0.499803752    
-         127 preResidual error   2.19911337E-03
-         127 Residual error   1.79268362E-04 Mass Flow  0.499802113    
-         128 preResidual error   2.12424994E-03
-         128 Residual error   1.73165608E-04 Mass Flow  0.499799818    
-         129 preResidual error   2.04539299E-03
-         129 Residual error   1.66737314E-04 Mass Flow  0.499797046    
-         130 preResidual error   1.96069479E-03
-         130 Residual error   1.59832838E-04 Mass Flow  0.499793887    
-         131 preResidual error   1.87420845E-03
-         131 Residual error   1.52782610E-04 Mass Flow  0.499790490    
-         132 preResidual error   1.78527832E-03
-         132 Residual error   1.45533151E-04 Mass Flow  0.499786943    
-         133 preResidual error   1.69521570E-03
-         133 Residual error   1.38191390E-04 Mass Flow  0.499783397    
-         134 preResidual error   1.60688162E-03
-         134 Residual error   1.30990535E-04 Mass Flow  0.499779880    
-         135 preResidual error   1.52534246E-03
-         135 Residual error   1.24343584E-04 Mass Flow  0.499776483    
-         136 preResidual error   1.44875050E-03
-         136 Residual error   1.18099924E-04 Mass Flow  0.499773234    
-         137 preResidual error   1.37352943E-03
-         137 Residual error   1.11968016E-04 Mass Flow  0.499770224    
-         138 preResidual error   1.29687786E-03
-         138 Residual error   1.05719497E-04 Mass Flow  0.499767452    
-         139 preResidual error   1.22123957E-03
-         139 Residual error   9.95535811E-05 Mass Flow  0.499764919    
-         140 preResidual error   1.14673376E-03
-         140 Residual error   9.34799828E-05 Mass Flow  0.499762684    
-         141 preResidual error   1.07604265E-03
-         141 Residual error   8.77173516E-05 Mass Flow  0.499760687    
-         142 preResidual error   1.00868940E-03
-         142 Residual error   8.22268194E-05 Mass Flow  0.499758959    
-         143 preResidual error   9.59873199E-04
-         143 Residual error   7.82473944E-05 Mass Flow  0.499757499    
-         144 preResidual error   9.11951065E-04
-         144 Residual error   7.43408527E-05 Mass Flow  0.499756247    
-         145 preResidual error   8.65280628E-04
-         145 Residual error   7.05363564E-05 Mass Flow  0.499755204    
-         146 preResidual error   8.17179680E-04
-         146 Residual error   6.66152409E-05 Mass Flow  0.499754310    
-         147 preResidual error   7.70986080E-04
-         147 Residual error   6.28496055E-05 Mass Flow  0.499753535    
-         148 preResidual error   7.27951527E-04
-         148 Residual error   5.93414952E-05 Mass Flow  0.499752879    
-         149 preResidual error   6.84857368E-04
-         149 Residual error   5.58285246E-05 Mass Flow  0.499752313    
-         150 preResidual error   6.43551350E-04
-         150 Residual error   5.24613206E-05 Mass Flow  0.499751806    
-         151 preResidual error   6.02900982E-04
-         151 Residual error   4.91475657E-05 Mass Flow  0.499751389    
-         152 preResidual error   5.68211079E-04
-         152 Residual error   4.63196993E-05 Mass Flow  0.499751002    
-         153 preResidual error   5.41746616E-04
-         153 Residual error   4.41623561E-05 Mass Flow  0.499750674    
-         154 preResidual error   5.15758991E-04
-         154 Residual error   4.20438846E-05 Mass Flow  0.499750376    
-         155 preResidual error   4.89354134E-04
-         155 Residual error   3.98914017E-05 Mass Flow  0.499750078    
-         156 preResidual error   4.64916229E-04
-         156 Residual error   3.78992590E-05 Mass Flow  0.499749780    
-         157 preResidual error   4.44769859E-04
-         157 Residual error   3.62569590E-05 Mass Flow  0.499749482    
-         158 preResidual error   4.28080559E-04
-         158 Residual error   3.48964713E-05 Mass Flow  0.499749213    
-         159 preResidual error   4.11391258E-04
-         159 Residual error   3.35359873E-05 Mass Flow  0.499748945    
-         160 preResidual error   3.94880772E-04
-         160 Residual error   3.21900770E-05 Mass Flow  0.499748677    
-         161 preResidual error   3.79145145E-04
-         161 Residual error   3.09073330E-05 Mass Flow  0.499748439    
-         162 preResidual error   3.62396240E-04
-         162 Residual error   2.95419868E-05 Mass Flow  0.499748260    
-         163 preResidual error   3.46302986E-04
-         163 Residual error   2.82300898E-05 Mass Flow  0.499748141    
-         164 preResidual error   3.30686569E-04
-         164 Residual error   2.69570628E-05 Mass Flow  0.499748021    
-         165 preResidual error   3.13699245E-04
-         165 Residual error   2.55722825E-05 Mass Flow  0.499747992    
-         166 preResidual error   2.97546387E-04
-         166 Residual error   2.42555270E-05 Mass Flow  0.499747992    
-         167 preResidual error   2.83956528E-04
-         167 Residual error   2.31477024E-05 Mass Flow  0.499748021    
-         168 preResidual error   2.67982483E-04
-         168 Residual error   2.18455225E-05 Mass Flow  0.499748111    
-         169 preResidual error   2.53736973E-04
-         169 Residual error   2.06842506E-05 Mass Flow  0.499748230    
-         170 preResidual error   2.39193439E-04
-         170 Residual error   1.94986842E-05 Mass Flow  0.499748409    
-         171 preResidual error   2.25424767E-04
-         171 Residual error   1.83762822E-05 Mass Flow  0.499748588    
-         172 preResidual error   2.14874744E-04
-         172 Residual error   1.75162604E-05 Mass Flow  0.499748826    
-         173 preResidual error   2.05993652E-04
-         173 Residual error   1.67922881E-05 Mass Flow  0.499749064    
-         174 preResidual error   1.95801258E-04
-         174 Residual error   1.59614192E-05 Mass Flow  0.499749333    
-         175 preResidual error   1.87397003E-04
-         175 Residual error   1.52763168E-05 Mass Flow  0.499749631    
-         176 preResidual error   1.78217888E-04
-         176 Residual error   1.45280501E-05 Mass Flow  0.499749929    
-         177 preResidual error   1.68383121E-04
-         177 Residual error   1.37263341E-05 Mass Flow  0.499750227    
-         178 preResidual error   1.59680843E-04
-         178 Residual error   1.30169383E-05 Mass Flow  0.499750525    
-         179 preResidual error   1.53243542E-04
-         179 Residual error   1.24921789E-05 Mass Flow  0.499750853    
-         180 preResidual error   1.46210194E-04
-         180 Residual error   1.19188317E-05 Mass Flow  0.499751151    
-         181 preResidual error   1.40488148E-04
-         181 Residual error   1.14523791E-05 Mass Flow  0.499751449    
-         182 preResidual error   1.33812428E-04
-         182 Residual error   1.09081848E-05 Mass Flow  0.499751747    
-         183 preResidual error   1.26242638E-04
-         183 Residual error   1.02911072E-05 Mass Flow  0.499752015    
-         184 preResidual error   1.21235847E-04
-         184 Residual error   9.88296051E-06 Mass Flow  0.499752283    
+           1 preResidual error   32195.2773    
+           1 Residual error   1.00000000     Mass Flow   5.41035271    
+           2 preResidual error   6424.55176    
+           2 Residual error  0.199549511     Mass Flow   4.38799572    
+           3 preResidual error   4143.55273    
+           3 Residual error  0.128700644     Mass Flow   3.52438641    
+           4 preResidual error   2095.20532    
+           4 Residual error   6.50780350E-02 Mass Flow   3.89337611    
+           5 preResidual error   6243.89307    
+           5 Residual error  0.193938166     Mass Flow   4.84320641    
+           6 preResidual error   1170.16077    
+           6 Residual error   3.63457277E-02 Mass Flow   5.04033995    
+           7 preResidual error   4171.92236    
+           7 Residual error  0.129581809     Mass Flow   4.40103340    
+           8 preResidual error   4934.27295    
+           8 Residual error  0.153260767     Mass Flow   3.36860871    
+           9 preResidual error   2378.60107    
+           9 Residual error   7.38804340E-02 Mass Flow   2.71749020    
+          10 preResidual error   1747.08057    
+          10 Residual error   5.42651191E-02 Mass Flow   3.10638118    
+          11 preResidual error   3187.89453    
+          11 Residual error   9.90174562E-02 Mass Flow   3.73343515    
+          12 preResidual error   323.063385    
+          12 Residual error   1.00344960E-02 Mass Flow   3.80762887    
+          13 preResidual error   1947.09668    
+          13 Residual error   6.04777113E-02 Mass Flow   3.41975284    
+          14 preResidual error   1777.36865    
+          14 Residual error   5.52058816E-02 Mass Flow   2.99256968    
+          15 preResidual error   263.263306    
+          15 Residual error   8.17707833E-03 Mass Flow   3.00433517    
+          16 preResidual error   1759.05957    
+          16 Residual error   5.46371937E-02 Mass Flow   3.38656354    
+          17 preResidual error   771.458984    
+          17 Residual error   2.39618681E-02 Mass Flow   3.56322718    
+          18 preResidual error   1316.24097    
+          18 Residual error   4.08830456E-02 Mass Flow   3.30942655    
+          19 preResidual error   2231.80640    
+          19 Residual error   6.93209246E-02 Mass Flow   2.74847531    
+          20 preResidual error   1687.43811    
+          20 Residual error   5.24125956E-02 Mass Flow   2.20303202    
+          21 preResidual error   512.519165    
+          21 Residual error   1.59190781E-02 Mass Flow   2.01792383    
+          22 preResidual error   461.339844    
+          22 Residual error   1.43294260E-02 Mass Flow   2.16786289    
+          23 preResidual error   273.808441    
+          23 Residual error   8.50461517E-03 Mass Flow   2.24280596    
+          24 preResidual error   390.600677    
+          24 Residual error   1.21322349E-02 Mass Flow   2.11970878    
+          25 preResidual error   360.705963    
+          25 Residual error   1.12036914E-02 Mass Flow   1.98610079    
+          26 preResidual error   420.921844    
+          26 Residual error   1.30740246E-02 Mass Flow   2.11153293    
+          27 preResidual error   1270.46179    
+          27 Residual error   3.94611210E-02 Mass Flow   2.47878385    
+          28 preResidual error   1120.42493    
+          28 Residual error   3.48009095E-02 Mass Flow   2.77776933    
+          29 preResidual error   232.868652    
+          29 Residual error   7.23300641E-03 Mass Flow   2.84556866    
+          30 preResidual error   607.895203    
+          30 Residual error   1.88815016E-02 Mass Flow   2.70293880    
+          31 preResidual error   862.214722    
+          31 Residual error   2.67807823E-02 Mass Flow   2.46694064    
+          32 preResidual error   695.761047    
+          32 Residual error   2.16106549E-02 Mass Flow   2.25847840    
+          33 preResidual error   492.790344    
+          33 Residual error   1.53062930E-02 Mass Flow   2.10510898    
+          34 preResidual error   515.116638    
+          34 Residual error   1.59997586E-02 Mass Flow   1.92935145    
+          35 preResidual error   637.203247    
+          35 Residual error   1.97918229E-02 Mass Flow   1.66826308    
+          36 preResidual error   581.359253    
+          36 Residual error   1.80572830E-02 Mass Flow   1.36645865    
+          37 preResidual error   298.874146    
+          37 Residual error   9.28316731E-03 Mass Flow   1.18134212    
+          38 preResidual error   231.955765    
+          38 Residual error   7.20465183E-03 Mass Flow   1.27827346    
+          39 preResidual error   630.505920    
+          39 Residual error   1.95838008E-02 Mass Flow   1.55635715    
+          40 preResidual error   604.784546    
+          40 Residual error   1.87848844E-02 Mass Flow   1.79210496    
+          41 preResidual error   401.764313    
+          41 Residual error   1.24789830E-02 Mass Flow   1.93612158    
+          42 preResidual error   266.761139    
+          42 Residual error   8.28572270E-03 Mass Flow   2.02305245    
+          43 preResidual error   227.640671    
+          43 Residual error   7.07062287E-03 Mass Flow   2.09399438    
+          44 preResidual error   192.879898    
+          44 Residual error   5.99093782E-03 Mass Flow   2.15343118    
+          45 preResidual error   93.5335159    
+          45 Residual error   2.90519372E-03 Mass Flow   2.17239952    
+          46 preResidual error   193.265015    
+          46 Residual error   6.00289972E-03 Mass Flow   2.12682009    
+          47 preResidual error   319.478912    
+          47 Residual error   9.92316101E-03 Mass Flow   2.02582312    
+          48 preResidual error   336.851349    
+          48 Residual error   1.04627563E-02 Mass Flow   1.90877080    
+          49 preResidual error   254.115158    
+          49 Residual error   7.89293274E-03 Mass Flow   1.81805468    
+          50 preResidual error   157.807312    
+          50 Residual error   4.90156701E-03 Mass Flow   1.76911867    
+          51 preResidual error   117.033340    
+          51 Residual error   3.63510894E-03 Mass Flow   1.74517584    
+          52 preResidual error   112.606102    
+          52 Residual error   3.49759683E-03 Mass Flow   1.72381186    
+          53 preResidual error   114.552170    
+          53 Residual error   3.55804269E-03 Mass Flow   1.70059669    
+          54 preResidual error   104.672310    
+          54 Residual error   3.25116958E-03 Mass Flow   1.68453097    
+          55 preResidual error   91.9405060    
+          55 Residual error   2.85571394E-03 Mass Flow   1.67730606    
+          56 preResidual error   97.4450226    
+          56 Residual error   3.02668684E-03 Mass Flow   1.66492021    
+          57 preResidual error   127.728836    
+          57 Residual error   3.96731589E-03 Mass Flow   1.63008726    
+          58 preResidual error   162.888168    
+          58 Residual error   5.05938102E-03 Mass Flow   1.56928885    
+          59 preResidual error   168.706787    
+          59 Residual error   5.24010975E-03 Mass Flow   1.49863398    
+          60 preResidual error   131.692688    
+          60 Residual error   4.09043487E-03 Mass Flow   1.44412470    
+          61 preResidual error   87.9710846    
+          61 Residual error   2.73242197E-03 Mass Flow   1.42623794    
+          62 preResidual error   108.619408    
+          62 Residual error   3.37376841E-03 Mass Flow   1.44947195    
+          63 preResidual error   153.374283    
+          63 Residual error   4.76387516E-03 Mass Flow   1.50608683    
+          64 preResidual error   203.282837    
+          64 Residual error   6.31405786E-03 Mass Flow   1.58741522    
+          65 preResidual error   249.898148    
+          65 Residual error   7.76195060E-03 Mass Flow   1.68564308    
+          66 preResidual error   274.340881    
+          66 Residual error   8.52115266E-03 Mass Flow   1.78987801    
+          67 preResidual error   257.922058    
+          67 Residual error   8.01117718E-03 Mass Flow   1.88459003    
+          68 preResidual error   195.987671    
+          68 Residual error   6.08746661E-03 Mass Flow   1.95438170    
+          69 preResidual error   107.489662    
+          69 Residual error   3.33867804E-03 Mass Flow   1.98993313    
+          70 preResidual error   71.5431747    
+          70 Residual error   2.22216360E-03 Mass Flow   1.99006641    
+          71 preResidual error   117.129471    
+          71 Residual error   3.63809476E-03 Mass Flow   1.95938063    
+          72 preResidual error   170.687790    
+          72 Residual error   5.30164083E-03 Mass Flow   1.90443170    
+          73 preResidual error   208.185028    
+          73 Residual error   6.46632211E-03 Mass Flow   1.83119643    
+          74 preResidual error   226.082916    
+          74 Residual error   7.02223834E-03 Mass Flow   1.74571395    
+          75 preResidual error   220.894257    
+          75 Residual error   6.86107622E-03 Mass Flow   1.65633965    
+          76 preResidual error   192.198898    
+          76 Residual error   5.96978562E-03 Mass Flow   1.57389188    
+          77 preResidual error   146.101028    
+          77 Residual error   4.53796471E-03 Mass Flow   1.50939536    
+          78 preResidual error   93.5525055    
+          78 Residual error   2.90578348E-03 Mass Flow   1.46983790    
+          79 preResidual error   54.2789154    
+          79 Residual error   1.68592785E-03 Mass Flow   1.45550919    
+          80 preResidual error   56.8026123    
+          80 Residual error   1.76431506E-03 Mass Flow   1.46166730    
+          81 preResidual error   70.9456711    
+          81 Residual error   2.20360490E-03 Mass Flow   1.48179662    
+          82 preResidual error   82.2560349    
+          82 Residual error   2.55491002E-03 Mass Flow   1.51027155    
+          83 preResidual error   88.5823822    
+          83 Residual error   2.75140931E-03 Mass Flow   1.54247284    
+          84 preResidual error   88.4119492    
+          84 Residual error   2.74611544E-03 Mass Flow   1.57462609    
+          85 preResidual error   83.6294937    
+          85 Residual error   2.59757019E-03 Mass Flow   1.60430503    
+          86 preResidual error   78.1962128    
+          86 Residual error   2.42881011E-03 Mass Flow   1.63098192    
+          87 preResidual error   75.1119995    
+          87 Residual error   2.33301288E-03 Mass Flow   1.65610182    
+          88 preResidual error   75.5493164    
+          88 Residual error   2.34659621E-03 Mass Flow   1.68169558    
+          89 preResidual error   78.6150742    
+          89 Residual error   2.44181999E-03 Mass Flow   1.70887005    
+          90 preResidual error   80.3108521    
+          90 Residual error   2.49449164E-03 Mass Flow   1.73693740    
+          91 preResidual error   77.3087158    
+          91 Residual error   2.40124390E-03 Mass Flow   1.76368868    
+          92 preResidual error   68.4311981    
+          92 Residual error   2.12550419E-03 Mass Flow   1.78663075    
+          93 preResidual error   54.3451920    
+          93 Residual error   1.68798643E-03 Mass Flow   1.80340064    
+          94 preResidual error   38.6158752    
+          94 Residual error   1.19942671E-03 Mass Flow   1.81190968    
+          95 preResidual error   38.2277679    
+          95 Residual error   1.18737190E-03 Mass Flow   1.81053042    
+          96 preResidual error   51.6588440    
+          96 Residual error   1.60454726E-03 Mass Flow   1.79856336    
+          97 preResidual error   70.6598816    
+          97 Residual error   2.19472824E-03 Mass Flow   1.77651584    
+          98 preResidual error   86.0258713    
+          98 Residual error   2.67200288E-03 Mass Flow   1.74624145    
+          99 preResidual error   94.6894836    
+          99 Residual error   2.94109853E-03 Mass Flow   1.71077681    
+         100 preResidual error   94.4149780    
+         100 Residual error   2.93257227E-03 Mass Flow   1.67397606    
+         101 preResidual error   85.6488342    
+         101 Residual error   2.66029197E-03 Mass Flow   1.63981581    
+         102 preResidual error   70.6340637    
+         102 Residual error   2.19392614E-03 Mass Flow   1.61170578    
+         103 preResidual error   52.5651703    
+         103 Residual error   1.63269811E-03 Mass Flow   1.59205854    
+         104 preResidual error   35.3253098    
+         104 Residual error   1.09722023E-03 Mass Flow   1.58198535    
+         105 preResidual error   27.2925549    
+         105 Residual error   8.47719202E-04 Mass Flow   1.58112717    
+         106 preResidual error   33.9440079    
+         106 Residual error   1.05431641E-03 Mass Flow   1.58769989    
+         107 preResidual error   40.6528130    
+         107 Residual error   1.26269495E-03 Mass Flow   1.59904802    
+         108 preResidual error   42.9899597    
+         108 Residual error   1.33528782E-03 Mass Flow   1.61229479    
+         109 preResidual error   41.0445786    
+         109 Residual error   1.27486337E-03 Mass Flow   1.62490249    
+         110 preResidual error   36.4769745    
+         110 Residual error   1.13299151E-03 Mass Flow   1.63524795    
+         111 preResidual error   32.0592957    
+         111 Residual error   9.95776383E-04 Mass Flow   1.64263201    
+         112 preResidual error   28.4350319    
+         112 Residual error   8.83205037E-04 Mass Flow   1.64718473    
+         113 preResidual error   25.9976978    
+         113 Residual error   8.07500328E-04 Mass Flow   1.64968181    
+         114 preResidual error   24.5663719    
+         114 Residual error   7.63042714E-04 Mass Flow   1.65128005    
+         115 preResidual error   24.4398785    
+         115 Residual error   7.59113755E-04 Mass Flow   1.65318751    
+         116 preResidual error   25.2775116    
+         116 Residual error   7.85131066E-04 Mass Flow   1.65632176    
+         117 preResidual error   26.9691925    
+         117 Residual error   8.37675412E-04 Mass Flow   1.66123199    
+         118 preResidual error   28.9149494    
+         118 Residual error   8.98111495E-04 Mass Flow   1.66801071    
+         119 preResidual error   30.3900719    
+         119 Residual error   9.43929481E-04 Mass Flow   1.67625821    
+         120 preResidual error   30.9082985    
+         120 Residual error   9.60025878E-04 Mass Flow   1.68516386    
+         121 preResidual error   29.9369259    
+         121 Residual error   9.29854577E-04 Mass Flow   1.69377840    
+         122 preResidual error   27.7137394    
+         122 Residual error   8.60801374E-04 Mass Flow   1.70125759    
+         123 preResidual error   24.6090488    
+         123 Residual error   7.64368277E-04 Mass Flow   1.70697081    
+         124 preResidual error   21.0988941    
+         124 Residual error   6.55341253E-04 Mass Flow   1.71068025    
+         125 preResidual error   19.2362328    
+         125 Residual error   5.97486156E-04 Mass Flow   1.71242285    
+         126 preResidual error   19.3428688    
+         126 Residual error   6.00798347E-04 Mass Flow   1.71239460    
+         127 preResidual error   20.2135963    
+         127 Residual error   6.27843547E-04 Mass Flow   1.71091080    
+         128 preResidual error   20.8541012    
+         128 Residual error   6.47737877E-04 Mass Flow   1.70840800    
+         129 preResidual error   21.2479134    
+         129 Residual error   6.59969868E-04 Mass Flow   1.70525122    
+         130 preResidual error   21.4877739    
+         130 Residual error   6.67420041E-04 Mass Flow   1.70161736    
+         131 preResidual error   21.8057556    
+         131 Residual error   6.77296717E-04 Mass Flow   1.69740951    
+         132 preResidual error   22.4600353    
+         132 Residual error   6.97618932E-04 Mass Flow   1.69242263    
+         133 preResidual error   23.4427929    
+         133 Residual error   7.28143845E-04 Mass Flow   1.68637812    
+         134 preResidual error   24.7423992    
+         134 Residual error   7.68510217E-04 Mass Flow   1.67909801    
+         135 preResidual error   26.2841263    
+         135 Residual error   8.16396961E-04 Mass Flow   1.67050111    
+         136 preResidual error   27.7104340    
+         136 Residual error   8.60698696E-04 Mass Flow   1.66072798    
+         137 preResidual error   28.4742546    
+         137 Residual error   8.84423323E-04 Mass Flow   1.65017474    
+         138 preResidual error   28.1211662    
+         138 Residual error   8.73456243E-04 Mass Flow   1.63945293    
+         139 preResidual error   26.1155491    
+         139 Residual error   8.11160891E-04 Mass Flow   1.62939548    
+         140 preResidual error   22.4216499    
+         140 Residual error   6.96426665E-04 Mass Flow   1.62091279    
+         141 preResidual error   17.5767117    
+         141 Residual error   5.45940653E-04 Mass Flow   1.61485386    
+         142 preResidual error   13.4973917    
+         142 Residual error   4.19235148E-04 Mass Flow   1.61186385    
+         143 preResidual error   13.6447592    
+         143 Residual error   4.23812453E-04 Mass Flow   1.61225712    
+         144 preResidual error   16.7528477    
+         144 Residual error   5.20351110E-04 Mass Flow   1.61601961    
+         145 preResidual error   20.7965431    
+         145 Residual error   6.45950087E-04 Mass Flow   1.62281764    
+         146 preResidual error   25.3000050    
+         146 Residual error   7.85829674E-04 Mass Flow   1.63204920    
+         147 preResidual error   28.4409046    
+         147 Residual error   8.83387460E-04 Mass Flow   1.64289474    
+         148 preResidual error   29.7662563    
+         148 Residual error   9.24553489E-04 Mass Flow   1.65445375    
+         149 preResidual error   29.2799339    
+         149 Residual error   9.09448077E-04 Mass Flow   1.66588891    
+         150 preResidual error   27.2458801    
+         150 Residual error   8.46269482E-04 Mass Flow   1.67651248    
+         151 preResidual error   24.0942497    
+         151 Residual error   7.48378399E-04 Mass Flow   1.68582344    
+         152 preResidual error   20.3269024    
+         152 Residual error   6.31362840E-04 Mass Flow   1.69349897    
+         153 preResidual error   16.4673653    
+         153 Residual error   5.11483871E-04 Mass Flow   1.69937921    
+         154 preResidual error   12.7823601    
+         154 Residual error   3.97025928E-04 Mass Flow   1.70345199    
+         155 preResidual error   9.68017292    
+         155 Residual error   3.00670596E-04 Mass Flow   1.70580161    
+         156 preResidual error   8.74427700    
+         156 Residual error   2.71601224E-04 Mass Flow   1.70657218    
+         157 preResidual error   9.33057308    
+         157 Residual error   2.89811869E-04 Mass Flow   1.70594096    
+         158 preResidual error   10.3897171    
+         158 Residual error   3.22709355E-04 Mass Flow   1.70405054    
+         159 preResidual error   11.7092953    
+         159 Residual error   3.63696046E-04 Mass Flow   1.70105183    
+         160 preResidual error   13.1872931    
+         160 Residual error   4.09603352E-04 Mass Flow   1.69709492    
+         161 preResidual error   14.5109015    
+         161 Residual error   4.50715219E-04 Mass Flow   1.69234312    
+         162 preResidual error   15.4632330    
+         162 Residual error   4.80295072E-04 Mass Flow   1.68700016    
+         163 preResidual error   15.9581194    
+         163 Residual error   4.95666463E-04 Mass Flow   1.68128884    
+         164 preResidual error   15.9139442    
+         164 Residual error   4.94294392E-04 Mass Flow   1.67547059    
+         165 preResidual error   15.3087015    
+         165 Residual error   4.75495239E-04 Mass Flow   1.66982555    
+         166 preResidual error   14.1380863    
+         166 Residual error   4.39135416E-04 Mass Flow   1.66463149    
+         167 preResidual error   12.5282860    
+         167 Residual error   3.89134279E-04 Mass Flow   1.66012573    
+         168 preResidual error   10.6132193    
+         168 Residual error   3.29651433E-04 Mass Flow   1.65651321    
+         169 preResidual error   8.62374783    
+         169 Residual error   2.67857540E-04 Mass Flow   1.65390980    
+         170 preResidual error   6.94069862    
+         170 Residual error   2.15581269E-04 Mass Flow   1.65233016    
+         171 preResidual error   5.88042116    
+         171 Residual error   1.82648568E-04 Mass Flow   1.65169823    
+         172 preResidual error   6.03892231    
+         172 Residual error   1.87571684E-04 Mass Flow   1.65187240    
+         173 preResidual error   6.39068413    
+         173 Residual error   1.98497568E-04 Mass Flow   1.65265286    
+         174 preResidual error   6.67027569    
+         174 Residual error   2.07181802E-04 Mass Flow   1.65383196    
+         175 preResidual error   6.77227879    
+         175 Residual error   2.10350074E-04 Mass Flow   1.65520406    
+         176 preResidual error   6.69334555    
+         176 Residual error   2.07898367E-04 Mass Flow   1.65661120    
+         177 preResidual error   6.48942089    
+         177 Residual error   2.01564369E-04 Mass Flow   1.65794992    
+         178 preResidual error   6.26025915    
+         178 Residual error   1.94446504E-04 Mass Flow   1.65917456    
+         179 preResidual error   6.04096031    
+         179 Residual error   1.87634985E-04 Mass Flow   1.66029370    
+         180 preResidual error   5.87182093    
+         180 Residual error   1.82381438E-04 Mass Flow   1.66135573    
+         181 preResidual error   5.77989197    
+         181 Residual error   1.79526076E-04 Mass Flow   1.66243303    
+         182 preResidual error   5.76903439    
+         182 Residual error   1.79188835E-04 Mass Flow   1.66359699    
+         183 preResidual error   5.83711433    
+         183 Residual error   1.81303432E-04 Mass Flow   1.66489816    
+         184 preResidual error   5.94021749    
+         184 Residual error   1.84505858E-04 Mass Flow   1.66635716    
+         185 preResidual error   6.03071451    
+         185 Residual error   1.87316749E-04 Mass Flow   1.66796005    
+         186 preResidual error   6.05909252    
+         186 Residual error   1.88198173E-04 Mass Flow   1.66965926    
+         187 preResidual error   5.99280643    
+         187 Residual error   1.86139296E-04 Mass Flow   1.67139077    
+         188 preResidual error   5.80379725    
+         188 Residual error   1.80268587E-04 Mass Flow   1.67307866    
+         189 preResidual error   5.50079584    
+         189 Residual error   1.70857224E-04 Mass Flow   1.67463851    
+         190 preResidual error   5.07904863    
+         190 Residual error   1.57757560E-04 Mass Flow   1.67599881    
+         191 preResidual error   4.61749172    
+         191 Residual error   1.43421406E-04 Mass Flow   1.67711067    
+         192 preResidual error   4.13436222    
+         192 Residual error   1.28415180E-04 Mass Flow   1.67794681    
+         193 preResidual error   3.68709946    
+         193 Residual error   1.14522991E-04 Mass Flow   1.67849886    
+         194 preResidual error   3.51635528    
+         194 Residual error   1.09219596E-04 Mass Flow   1.67877471    
+         195 preResidual error   3.53163743    
+         195 Residual error   1.09694272E-04 Mass Flow   1.67878556    
+         196 preResidual error   3.63667321    
+         196 Residual error   1.12956732E-04 Mass Flow   1.67855239    
+         197 preResidual error   3.75848508    
+         197 Residual error   1.16740259E-04 Mass Flow   1.67809582    
+         198 preResidual error   3.89981699    
+         198 Residual error   1.21130091E-04 Mass Flow   1.67743838    
+         199 preResidual error   4.03919029    
+         199 Residual error   1.25459090E-04 Mass Flow   1.67660677    
+         200 preResidual error   4.16548061    
+         200 Residual error   1.29381733E-04 Mass Flow   1.67562556    
+         201 preResidual error   4.26053715    
+         201 Residual error   1.32334229E-04 Mass Flow   1.67451894    
+         202 preResidual error   4.32072735    
+         202 Residual error   1.34203758E-04 Mass Flow   1.67331481    
+         203 preResidual error   4.32439518    
+         203 Residual error   1.34317685E-04 Mass Flow   1.67205095    
+         204 preResidual error   4.25658321    
+         204 Residual error   1.32211411E-04 Mass Flow   1.67077756    
+         205 preResidual error   4.09391832    
+         205 Residual error   1.27158972E-04 Mass Flow   1.66954875    
+         206 preResidual error   3.86504102    
+         206 Residual error   1.20049939E-04 Mass Flow   1.66841030    
+         207 preResidual error   3.58484793    
+         207 Residual error   1.11347013E-04 Mass Flow   1.66740787    
+         208 preResidual error   3.28598690    
+         208 Residual error   1.02064252E-04 Mass Flow   1.66657209    
+         209 preResidual error   2.99276471    
+         209 Residual error   9.29566377E-05 Mass Flow   1.66591978    
+         210 preResidual error   2.70074034    
+         210 Residual error   8.38862252E-05 Mass Flow   1.66545153    
+         211 preResidual error   2.43958163    
+         211 Residual error   7.57745147E-05 Mass Flow   1.66515315    
+         212 preResidual error   2.32417774    
+         212 Residual error   7.21900215E-05 Mass Flow   1.66500092    
+         213 preResidual error   2.30003905    
+         213 Residual error   7.14402631E-05 Mass Flow   1.66495681    
+         214 preResidual error   2.28796864    
+         214 Residual error   7.10653476E-05 Mass Flow   1.66497850    
+         215 preResidual error   2.25927401    
+         215 Residual error   7.01740792E-05 Mass Flow   1.66502988    
+         216 preResidual error   2.21288490    
+         216 Residual error   6.87332140E-05 Mass Flow   1.66508734    
+         217 preResidual error   2.16114187    
+         217 Residual error   6.71260495E-05 Mass Flow   1.66513550    
+         218 preResidual error   2.10733938    
+         218 Residual error   6.54549222E-05 Mass Flow   1.66516960    
+         219 preResidual error   2.05494547    
+         219 Residual error   6.38275451E-05 Mass Flow   1.66519761    
+         220 preResidual error   2.01301622    
+         220 Residual error   6.25251996E-05 Mass Flow   1.66523588    
+         221 preResidual error   1.99602973    
+         221 Residual error   6.19975908E-05 Mass Flow   1.66531181    
+         222 preResidual error   2.00989342    
+         222 Residual error   6.24282038E-05 Mass Flow   1.66545069    
+         223 preResidual error   2.04087257    
+         223 Residual error   6.33904347E-05 Mass Flow   1.66567242    
+         224 preResidual error   2.09741163    
+         224 Residual error   6.51465598E-05 Mass Flow   1.66599321    
+         225 preResidual error   2.17043066    
+         225 Residual error   6.74145631E-05 Mass Flow   1.66642261    
+         226 preResidual error   2.25163078    
+         226 Residual error   6.99366792E-05 Mass Flow   1.66695881    
+         227 preResidual error   2.33378172    
+         227 Residual error   7.24883212E-05 Mass Flow   1.66759288    
+         228 preResidual error   2.40474033    
+         228 Residual error   7.46923324E-05 Mass Flow   1.66830969    
+         229 preResidual error   2.45285463    
+         229 Residual error   7.61867850E-05 Mass Flow   1.66908693    
+         230 preResidual error   2.45267916    
+         230 Residual error   7.61813353E-05 Mass Flow   1.66989625    
+         231 preResidual error   2.41190243    
+         231 Residual error   7.49147875E-05 Mass Flow   1.67071307    
+         232 preResidual error   2.32989526    
+         232 Residual error   7.23676130E-05 Mass Flow   1.67151010    
+         233 preResidual error   2.20375061    
+         233 Residual error   6.84495026E-05 Mass Flow   1.67226219    
+         234 preResidual error   2.03084373    
+         234 Residual error   6.30789364E-05 Mass Flow   1.67294109    
+         235 preResidual error   1.82135272    
+         235 Residual error   5.65720475E-05 Mass Flow   1.67352200    
+         236 preResidual error   1.59137654    
+         236 Residual error   4.94288797E-05 Mass Flow   1.67398334    
+         237 preResidual error   1.37286973    
+         237 Residual error   4.26419610E-05 Mass Flow   1.67431021    
+         238 preResidual error   1.26245344    
+         238 Residual error   3.92123802E-05 Mass Flow   1.67448962    
+         239 preResidual error   1.26693559    
+         239 Residual error   3.93515984E-05 Mass Flow   1.67451239    
+         240 preResidual error   1.35212767    
+         240 Residual error   4.19977005E-05 Mass Flow   1.67437625    
+         241 preResidual error   1.47119057    
+         241 Residual error   4.56958514E-05 Mass Flow   1.67408490    
+         242 preResidual error   1.62721133    
+         242 Residual error   5.05419266E-05 Mass Flow   1.67364967    
+         243 preResidual error   1.79344893    
+         243 Residual error   5.57053427E-05 Mass Flow   1.67308855    
+         244 preResidual error   1.95716667    
+         244 Residual error   6.07904913E-05 Mass Flow   1.67242801    
+         245 preResidual error   2.07127619    
+         245 Residual error   6.43347812E-05 Mass Flow   1.67169619    
+         246 preResidual error   2.12002802    
+         246 Residual error   6.58490389E-05 Mass Flow   1.67092574    
+         247 preResidual error   2.10746002    
+         247 Residual error   6.54586693E-05 Mass Flow   1.67014766    
+         248 preResidual error   2.03411269    
+         248 Residual error   6.31804651E-05 Mass Flow   1.66939044    
+         249 preResidual error   1.90389919    
+         249 Residual error   5.91359785E-05 Mass Flow   1.66868210    
+         250 preResidual error   1.73066270    
+         250 Residual error   5.37551714E-05 Mass Flow   1.66804528    
+         251 preResidual error   1.53401315    
+         251 Residual error   4.76471469E-05 Mass Flow   1.66749644    
+         252 preResidual error   1.32361150    
+         252 Residual error   4.11119763E-05 Mass Flow   1.66704762    
+         253 preResidual error   1.12071061    
+         253 Residual error   3.48097819E-05 Mass Flow   1.66670167    
+         254 preResidual error  0.943785071    
+         254 Residual error   2.93143949E-05 Mass Flow   1.66645658    
+         255 preResidual error  0.810654581    
+         255 Residual error   2.51793008E-05 Mass Flow   1.66630673    
+         256 preResidual error  0.776205122    
+         256 Residual error   2.41092857E-05 Mass Flow   1.66624737    
+         257 preResidual error  0.796548665    
+         257 Residual error   2.47411645E-05 Mass Flow   1.66627073    
+         258 preResidual error  0.829669595    
+         258 Residual error   2.57699157E-05 Mass Flow   1.66636503    
+         259 preResidual error  0.873961329    
+         259 Residual error   2.71456374E-05 Mass Flow   1.66652012    
+         260 preResidual error  0.915175080    
+         260 Residual error   2.84257549E-05 Mass Flow   1.66672695    
+         261 preResidual error  0.953669488    
+         261 Residual error   2.96214093E-05 Mass Flow   1.66697514    
+         262 preResidual error  0.989710689    
+         262 Residual error   3.07408664E-05 Mass Flow   1.66725707    
+         263 preResidual error   1.01585007    
+         263 Residual error   3.15527650E-05 Mass Flow   1.66756356    
+         264 preResidual error   1.02972698    
+         264 Residual error   3.19837891E-05 Mass Flow   1.66788626    
+         265 preResidual error   1.02651799    
+         265 Residual error   3.18841157E-05 Mass Flow   1.66821623    
+         266 preResidual error   1.01164365    
+         266 Residual error   3.14221143E-05 Mass Flow   1.66854596    
+         267 preResidual error  0.987761557    
+         267 Residual error   3.06803231E-05 Mass Flow   1.66886938    
+         268 preResidual error  0.953312695    
+         268 Residual error   2.96103281E-05 Mass Flow   1.66918111    
+         269 preResidual error  0.904993474    
+         269 Residual error   2.81095108E-05 Mass Flow   1.66947460    
+         270 preResidual error  0.848777711    
+         270 Residual error   2.63634229E-05 Mass Flow   1.66974330    
+         271 preResidual error  0.786593139    
+         271 Residual error   2.44319417E-05 Mass Flow   1.66998327    
+         272 preResidual error  0.722059250    
+         272 Residual error   2.24274900E-05 Mass Flow   1.67019248    
+         273 preResidual error  0.656831980    
+         273 Residual error   2.04015014E-05 Mass Flow   1.67037201    
+         274 preResidual error  0.592820704    
+         274 Residual error   1.84132823E-05 Mass Flow   1.67052007    
+         275 preResidual error  0.532539427    
+         275 Residual error   1.65409183E-05 Mass Flow   1.67063463    
+         276 preResidual error  0.473774254    
+         276 Residual error   1.47156443E-05 Mass Flow   1.67071331    
+         277 preResidual error  0.445268035    
+         277 Residual error   1.38302285E-05 Mass Flow   1.67075634    
+         278 preResidual error  0.440836012    
+         278 Residual error   1.36925673E-05 Mass Flow   1.67076504    
+         279 preResidual error  0.447944283    
+         279 Residual error   1.39133535E-05 Mass Flow   1.67074215    
+         280 preResidual error  0.457625628    
+         280 Residual error   1.42140607E-05 Mass Flow   1.67069077    
+         281 preResidual error  0.475621462    
+         281 Residual error   1.47730198E-05 Mass Flow   1.67061269    
+         282 preResidual error  0.498245597    
+         282 Residual error   1.54757363E-05 Mass Flow   1.67051017    
+         283 preResidual error  0.518488824    
+         283 Residual error   1.61044991E-05 Mass Flow   1.67038798    
+         284 preResidual error  0.528647065    
+         284 Residual error   1.64200192E-05 Mass Flow   1.67025256    
+         285 preResidual error  0.528699219    
+         285 Residual error   1.64216381E-05 Mass Flow   1.67011082    
+         286 preResidual error  0.519553423    
+         286 Residual error   1.61375665E-05 Mass Flow   1.66996789    
+         287 preResidual error  0.504976630    
+         287 Residual error   1.56848037E-05 Mass Flow   1.66982698    
+         288 preResidual error  0.483210921    
+         288 Residual error   1.50087517E-05 Mass Flow   1.66969287    
+         289 preResidual error  0.451223254    
+         289 Residual error   1.40151997E-05 Mass Flow   1.66957283    
+         290 preResidual error  0.418879390    
+         290 Residual error   1.30105846E-05 Mass Flow   1.66946959    
+         291 preResidual error  0.391737282    
+         291 Residual error   1.21675384E-05 Mass Flow   1.66938257    
+         292 preResidual error  0.368266761    
+         292 Residual error   1.14385339E-05 Mass Flow   1.66931009    
+         293 preResidual error  0.344632506    
+         293 Residual error   1.07044425E-05 Mass Flow   1.66925323    
+         294 preResidual error  0.321746588    
+         294 Residual error   9.99359600E-06 Mass Flow   1.66921198    
