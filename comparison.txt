@@ -1,335 +1,210 @@
 test.f90
- Mesh Num           3
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         793 Residual error   9.90723220E-06 Mass Flow  0.655717731    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num           3
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         783 Residual error   9.95994833E-06 Mass Flow  0.647212207    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
  Mesh Num           4
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
- 理論解(Mass Flow)  0.447213620    
+         374 Residual error   9.77055333E-06 Mass Flow   1.89558351    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
  Mesh Num           4
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         858 Residual error   9.98584892E-06 Mass Flow  0.592171252    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num           5
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         910 Residual error   9.88393003E-06 Mass Flow  0.565799117    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num           5
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         950 Residual error   9.65097297E-06 Mass Flow  0.560221732    
- 理論解(Mass Flow)  0.447213620    
+         366 Residual error   9.82120764E-06 Mass Flow   1.87262094    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
  Mesh Num           6
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         964 Residual error   9.93744925E-06 Mass Flow  0.543524861    
- 理論解(Mass Flow)  0.447213620    
+         402 Residual error   9.96319886E-06 Mass Flow   1.71876907    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
  Mesh Num           6
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         922 Residual error   9.82213624E-06 Mass Flow  0.539260805    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num           7
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-        1028 Residual error   9.98167525E-06 Mass Flow  0.527750432    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num           7
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         977 Residual error   9.97751886E-06 Mass Flow  0.524451315    
- 理論解(Mass Flow)  0.447213620    
+         399 Residual error   9.95310165E-06 Mass Flow   1.70529044    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
  Mesh Num           8
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         959 Residual error   9.94547372E-06 Mass Flow  0.516011357    
- 理論解(Mass Flow)  0.447213620    
+         397 Residual error   9.90286208E-06 Mass Flow   1.63176668    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
  Mesh Num           8
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         997 Residual error   9.87166914E-06 Mass Flow  0.513415515    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num           9
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-        1002 Residual error   9.97930965E-06 Mass Flow  0.506949127    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num           9
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         980 Residual error   9.99520671E-06 Mass Flow  0.504873395    
- 理論解(Mass Flow)  0.447213620    
+         398 Residual error   9.81121775E-06 Mass Flow   1.62355459    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
  Mesh Num          10
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-        1030 Residual error   9.98772794E-06 Mass Flow  0.499753386    
- 理論解(Mass Flow)  0.447213620    
+         408 Residual error   9.74691193E-06 Mass Flow   1.58036172    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
  Mesh Num          10
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         947 Residual error   9.83664540E-06 Mass Flow  0.498072565    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num          11
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-        1098 Residual error   9.96474228E-06 Mass Flow  0.493907630    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num          11
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         919 Residual error   9.86069972E-06 Mass Flow  0.492528945    
- 理論解(Mass Flow)  0.447213620    
+         405 Residual error   9.82081656E-06 Mass Flow   1.57504749    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
  Mesh Num          12
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         969 Residual error   9.98684118E-06 Mass Flow  0.489066631    
- 理論解(Mass Flow)  0.447213620    
+         408 Residual error   9.75263902E-06 Mass Flow   1.54656315    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
  Mesh Num          12
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         954 Residual error   9.70231395E-06 Mass Flow  0.487921417    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num          13
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         978 Residual error   9.96119070E-06 Mass Flow  0.484989971    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num          13
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         966 Residual error   9.98249016E-06 Mass Flow  0.484029680    
- 理論解(Mass Flow)  0.447213620    
+         406 Residual error   9.89294585E-06 Mass Flow   1.54294300    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
  Mesh Num          14
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         945 Residual error   9.96815379E-06 Mass Flow  0.481515884    
- 理論解(Mass Flow)  0.447213620    
+         414 Residual error   9.68916083E-06 Mass Flow   1.52268088    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
  Mesh Num          14
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         933 Residual error   9.98190990E-06 Mass Flow  0.480702490    
- 理論解(Mass Flow)  0.447213620    
+         412 Residual error   9.71815462E-06 Mass Flow   1.52011216    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
- Mesh Num          15
- Relaxation Factor   1.99999996E-02
+ Mesh Num          16
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         936 Residual error   9.89596538E-06 Mass Flow  0.478520781    
- 理論解(Mass Flow)  0.447213620    
+         398 Residual error   9.92190053E-06 Mass Flow   1.50498080    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
- Mesh Num          15
- Relaxation Factor   1.99999996E-02
+ Mesh Num          16
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         927 Residual error   9.94307720E-06 Mass Flow  0.477827936    
- 理論解(Mass Flow)  0.447213620    
+         398 Residual error   9.88489501E-06 Mass Flow   1.50309825    
+ 理論解(Mass Flow)   1.41421354    
+ ----------------------------------------------------------------------------
+test.f90
+ Mesh Num          18
+ Relaxation Factor   3.99999991E-02
+ Allowable Value   1.00000007E-05
+         398 Residual error   9.90269291E-06 Mass Flow   1.49129653    
+ 理論解(Mass Flow)   1.41421354    
+ ----------------------------------------------------------------------------
+test01(kai).f90
+ Mesh Num          18
+ Relaxation Factor   3.99999991E-02
+ Allowable Value   1.00000007E-05
+         399 Residual error   9.90822264E-06 Mass Flow   1.48987913    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
  Mesh Num          20
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         939 Residual error   9.97121060E-06 Mass Flow  0.468155503    
- 理論解(Mass Flow)  0.447213620    
+         399 Residual error   9.82404526E-06 Mass Flow   1.48043132    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
  Mesh Num          20
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         953 Residual error   9.96350718E-06 Mass Flow  0.467809707    
- 理論解(Mass Flow)  0.447213620    
+         398 Residual error   9.91358775E-06 Mass Flow   1.47933853    
+ 理論解(Mass Flow)   1.41421354    
+ ----------------------------------------------------------------------------
+test.f90
+ Mesh Num          25
+ Relaxation Factor   3.99999991E-02
+ Allowable Value   1.00000007E-05
+         417 Residual error   9.42452516E-06 Mass Flow   1.46108305    
+ 理論解(Mass Flow)   1.41421354    
+ ----------------------------------------------------------------------------
+test01(kai).f90
+ Mesh Num          25
+ Relaxation Factor   3.99999991E-02
+ Allowable Value   1.00000007E-05
+         417 Residual error   9.93155754E-06 Mass Flow   1.46046746    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
  Mesh Num          30
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         914 Residual error   9.92226524E-06 Mass Flow  0.458005250    
- 理論解(Mass Flow)  0.447213620    
+         394 Residual error   9.94212860E-06 Mass Flow   1.44834340    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
  Mesh Num          30
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         890 Residual error   9.90799708E-06 Mass Flow  0.457884789    
- 理論解(Mass Flow)  0.447213620    
+         393 Residual error   9.92708101E-06 Mass Flow   1.44796729    
+ 理論解(Mass Flow)   1.41421354    
+ ----------------------------------------------------------------------------
+test.f90
+ Mesh Num          35
+ Relaxation Factor   3.99999991E-02
+ Allowable Value   1.00000007E-05
+         400 Residual error   9.81856829E-06 Mass Flow   1.43929005    
+ 理論解(Mass Flow)   1.41421354    
+ ----------------------------------------------------------------------------
+test01(kai).f90
+ Mesh Num          35
+ Relaxation Factor   3.99999991E-02
+ Allowable Value   1.00000007E-05
+         401 Residual error   8.88012892E-06 Mass Flow   1.43904471    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
  Mesh Num          40
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         895 Residual error   9.92824516E-06 Mass Flow  0.453023672    
- 理論解(Mass Flow)  0.447213620    
+         401 Residual error   9.99195527E-06 Mass Flow   1.43257892    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
  Mesh Num          40
- Relaxation Factor   1.99999996E-02
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         889 Residual error   9.98506493E-06 Mass Flow  0.452971041    
- 理論解(Mass Flow)  0.447213620    
+         403 Residual error   8.89952753E-06 Mass Flow   1.43241048    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
- Mesh Num          60
- Relaxation Factor   1.99999996E-02
+ Mesh Num          45
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         871 Residual error   9.87620479E-06 Mass Flow  0.448110938    
- 理論解(Mass Flow)  0.447213620    
+         412 Residual error   7.25586506E-06 Mass Flow   1.42738295    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
- Mesh Num          60
- Relaxation Factor   1.99999996E-02
+ Mesh Num          45
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         872 Residual error   9.74852264E-06 Mass Flow  0.448096216    
- 理論解(Mass Flow)  0.447213620    
+         402 Residual error   8.28398151E-06 Mass Flow   1.42723405    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test.f90
- Mesh Num          80
- Relaxation Factor   1.99999996E-02
+ Mesh Num          50
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         900 Residual error   9.36618198E-06 Mass Flow  0.445679814    
- 理論解(Mass Flow)  0.447213620    
+         521 Residual error   7.02941861E-06 Mass Flow   1.42326784    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
 test01(kai).f90
- Mesh Num          80
- Relaxation Factor   1.99999996E-02
+ Mesh Num          50
+ Relaxation Factor   3.99999991E-02
  Allowable Value   1.00000007E-05
-         900 Residual error   9.43748546E-06 Mass Flow  0.445674628    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num         100
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-        1311 Residual error   4.89032391E-06 Mass Flow  0.444233000    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num         100
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-        1573 Residual error   7.98190104E-06 Mass Flow  0.444229275    
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num         120
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         741 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num         120
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-          87 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num         140
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-          37 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num         140
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-          65 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num         160
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-          40 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num         160
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-         108 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num         180
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-          55 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num         180
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-          64 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test.f90
- Mesh Num         200
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-          34 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
- ----------------------------------------------------------------------------
-test01(kai).f90
- Mesh Num         200
- Relaxation Factor   1.99999996E-02
- Allowable Value   1.00000007E-05
-          32 Residual error              NaN Mass Flow              NaN
- 理論解(Mass Flow)  0.447213620    
+         512 Residual error   6.99592829E-06 Mass Flow   1.42311060    
+ 理論解(Mass Flow)   1.41421354    
  ----------------------------------------------------------------------------
