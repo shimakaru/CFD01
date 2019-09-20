@@ -13,14 +13,14 @@ PROGRAM plenum_chamber_simple
 	INTEGER :: mesh_num,max_number_of_iterations
 	INTEGER :: i,j,k,l
 
-	mesh_num = shellset_mesh_num
-	cross_sectional_a_first = 5
+	mesh_num = 4 !shellset_mesh_num
+	cross_sectional_a_first = 0.5
 	cross_sectional_a_final = 0.1
-	p_first = 100
+	p_first = 10
 	p_final = 0
 	density = 1.0
-	relaxation_factor = 0.05
-	max_number_of_iterations = 20000
+	relaxation_factor = 0.02
+	max_number_of_iterations = 200000
 	allowable_value = 0.1**5
 
 	OPEN (1, file='output.dat', status='replace')
@@ -70,7 +70,13 @@ DO l = 1,max_number_of_iterations
 		ave_a = (cross_sectional_a(i + 1) + cross_sectional_a(i)) / 2
 		sudo_v(i) = density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i) * sudo_v(i - 1)
 		sudo_v(i) = sudo_v(i) + (sudo_cond_p(i) - sudo_cond_p(i + 1)) * ave_a
+		temp_real = 0
+		IF(density * (sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2 * cross_sectional_a(i + 1) > 0) THEN
 		temp_real = density * (sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2 * cross_sectional_a(i + 1)
+		END IF
+		IF(density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i) < 0) THEN
+		temp_real = temp_real - density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i)
+		END IF
 		sudo_v(i) = sudo_v(i) / temp_real
 		param_d(i) = ave_a / temp_real
 	END DO
@@ -166,7 +172,13 @@ DO l = 1,max_number_of_iterations
 		ave_a = (cross_sectional_a(i + 1) + cross_sectional_a(i)) / 2
 		res_v(i) = density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i) * sudo_v(i - 1)
 		res_v(i) = res_v(i) + (sudo_cond_p(i) - sudo_cond_p(i + 1)) * ave_a
+		temp_real = 0
+		IF(density * (sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2 * cross_sectional_a(i + 1) > 0) THEN
 		temp_real = density * (sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2 * cross_sectional_a(i + 1)
+		END IF
+		IF(density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i) < 0) THEN
+		temp_real = temp_real - density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i)
+		END IF
 		res_v(i) = temp_real * sudo_cond_v(i) - res_v(i)
 		residual_error = residual_error + ABS(res_v(i))
 	END DO

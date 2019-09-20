@@ -14,12 +14,12 @@ PROGRAM plenum_chamber_simple_kai
 	INTEGER :: i,j,k,l
 
 	mesh_num = shellset_mesh_num
-	cross_sectional_a_first = 5
+	cross_sectional_a_first = 0.5
 	cross_sectional_a_final = 0.1
-	p_first = 100
+	p_first = 10
 	p_final = 0
 	density = 1.0
-	relaxation_factor = 0.05
+	relaxation_factor = 0.02
 	max_number_of_iterations = 20000
 	allowable_value = 0.1**5
 
@@ -83,7 +83,6 @@ DO l = 1,max_number_of_iterations
 		temp_real = density*sudo_cond_v(i)*ave_a
 		sudo_v(i) = sudo_v(i) / temp_real
 		param_d(i) = ave_a / temp_real
-
 
 	!偽圧力算出matrix(i,j)
 	DO i = 2, mesh_num
