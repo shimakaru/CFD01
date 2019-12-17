@@ -16,7 +16,7 @@ PROGRAM plenum_chamber_simple
 	mesh_num = shellset_mesh_num
 	cross_sectional_a_first = 0.1
 	cross_sectional_a_final = 0.1
-	p_first = 1000
+	p_first = 100
 	p_final = 0
 	density = 1.0
 	relaxation_factor = 0.02d0

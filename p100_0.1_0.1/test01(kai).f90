@@ -1,4 +1,4 @@
-PROGRAM plenum_chamber_simple
+PROGRAM plenum_chamber_simple_kai
 	IMPLICIT NONE
 	REAL ::cross_sectional_a_first,cross_sectional_a_final !形状のBC
 	REAL ::p_first,p_final !圧力のBC
@@ -7,7 +7,7 @@ PROGRAM plenum_chamber_simple
 	REAL ::sudo_cond_v(1000),sudo_cond_p(1001),sudo_cond_mass_flow
 	REAL ::sudo_v(1000),sudo_p(1001),sudo_mass_flow,param_d(1000),correction_p(1001)
 	REAL ::density,relaxation_factor
-	REAL ::ave_a,ave_a_e,ave_a_w,temp_real
+	REAL ::ave_a,ave_a_e,ave_a_w,temp_real,extra_correction_e,extra_correction_w
 	REAL ::temp_matrix(1000,1000),matrix_p(1000,1000),temp_vector(1000)!本当は９９８でOK
 	REAL ::res_v(1000),first_residual_error,residual_error,allowable_value
 	INTEGER :: mesh_num,max_number_of_iterations
@@ -16,14 +16,14 @@ PROGRAM plenum_chamber_simple
 	mesh_num = shellset_mesh_num
 	cross_sectional_a_first = 0.1
 	cross_sectional_a_final = 0.1
-	p_first = 1000
+	p_first = 100
 	p_final = 0
 	density = 1.0
 	relaxation_factor = 0.02d0
 	max_number_of_iterations = 200000
 	allowable_value = 0.1**5
 
-	OPEN (1, file='output.dat', status='replace')
+	OPEN (1, file='output01.dat', status='replace')
 	WRITE (1, *) 'Mesh Num',mesh_num
 	WRITE (1, *) 'Relaxation Factor',relaxation_factor
 	WRITE (1, *) 'Allowable Value',allowable_value
@@ -72,14 +72,10 @@ DO l = 1,max_number_of_iterations
 	DO i = 2, mesh_num -1
 		ave_a = (cross_sectional_a(i + 1) + cross_sectional_a(i)) / 2
 		sudo_v(i) = density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i) * sudo_v(i - 1)
-		sudo_v(i) = sudo_v(i) + (sudo_cond_p(i) - sudo_cond_p(i + 1)) * ave_a
-		temp_real = 0
-		IF(density * (sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2 * cross_sectional_a(i + 1) > 0) THEN
+		extra_correction_e = ABS((sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2) * cross_sectional_a(i) / ABS(sudo_cond_v(i))
+		extra_correction_w = ABS((sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2) * cross_sectional_a(i + 1) / ABS(sudo_cond_v(i))
+		sudo_v(i) = sudo_v(i) + (sudo_cond_p(i) * extra_correction_e - sudo_cond_p(i + 1) * extra_correction_w)
 		temp_real = density * (sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2 * cross_sectional_a(i + 1)
-		END IF
-		IF(density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i) < 0) THEN
-		temp_real = temp_real - density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i)
-		END IF
 		sudo_v(i) = sudo_v(i) / temp_real
 		param_d(i) = ave_a / temp_real
 		IF(sudo_v(i)<0) THEN
@@ -180,14 +176,10 @@ DO l = 1,max_number_of_iterations
 	DO i = 2, mesh_num -1
 		ave_a = (cross_sectional_a(i + 1) + cross_sectional_a(i)) / 2
 		res_v(i) = density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i) * sudo_v(i - 1)
-		res_v(i) = res_v(i) + (sudo_cond_p(i) - sudo_cond_p(i + 1)) * ave_a
-		temp_real = 0
-		IF(density * (sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2 * cross_sectional_a(i + 1) > 0) THEN
+		extra_correction_e = ABS((sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2) * cross_sectional_a(i) / ABS(sudo_cond_v(i))
+		extra_correction_w = ABS((sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2) * cross_sectional_a(i + 1) / ABS(sudo_cond_v(i))
+		res_v(i) = res_v(i) + (sudo_cond_p(i) * extra_correction_e - sudo_cond_p(i + 1) * extra_correction_w)
 		temp_real = density * (sudo_cond_v(i) + sudo_cond_v(i + 1)) / 2 * cross_sectional_a(i + 1)
-		END IF
-		IF(density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i) < 0) THEN
-		temp_real = temp_real - density * (sudo_cond_v(i - 1) + sudo_cond_v(i)) / 2 * cross_sectional_a(i)
-		END IF
 		res_v(i) = temp_real * sudo_cond_v(i) - res_v(i)
 		residual_error = residual_error + ABS(res_v(i))
 	END DO
@@ -216,4 +208,4 @@ temp_real = SQRT(2*(p_first - p_final) / density) * cross_sectional_a_final
 !PRINT *,'----------------------------------------------------------------------------'
 !計算講師の数、緩和係数、許容残差、反復回数、残差、流量、理論解の流量
 PRINT *,mesh_num,relaxation_factor,allowable_value,l,residual_error,sudo_cond_mass_flow,temp_real
-END PROGRAM plenum_chamber_simple
+END PROGRAM plenum_chamber_simple_kai
